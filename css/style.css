@@ -624,7 +624,7 @@ ul {
 
 .modal-form-field {
   position: relative;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 .modal-form-input-wrapper {
   position: relative;
@@ -638,7 +638,7 @@ ul {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px;*/
   transition: border-color 250ms var(--main-color);
 }
 
