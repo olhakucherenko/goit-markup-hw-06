@@ -715,11 +715,21 @@ ul {
 .modal-checkbox:hover + .modal-form-check-desc::before {
   border-color: var(--main-color);
 }
-.modal-checkbox:checked + .modal-form-check-desc::before {
+/*.modal-checkbox:checked + .modal-form-check-desc::before {
   background-color: rgba(33, 150, 243, 1);
   background-image: url("../images/check-icon.svg");
+
   background-position: center;
+}*/
+.modal-checkbox:checked + .modal-form-check-desc::before {
+  background-color: var(--main-color);
+  border-radius: 2px;
+  background-image: url(../images/check-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .modal-form-button {
   width: 200px;
   height: 50px;
@@ -762,7 +772,7 @@ ul {
 .our-policy {
   color: var(--main-color);
 }
-/*-------------MODAL-----------------*/
+/*--------------------MODAL------------------------*/
 .portfolio-list-item-description {
   position: absolute;
   top: 0;
